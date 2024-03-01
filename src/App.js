@@ -1,7 +1,7 @@
 import './App.css';
 
 import { GenerateCards } from './components/GenerateCards';
-
+import { GenCard } from './components/TestC';
 import { Experience } from './components/Experience';
 import React, { Suspense } from 'react';
 
@@ -33,8 +33,8 @@ function App() {
       
       <footer>
         <div className='OrganizeCards'>
-          <GenerateCards />
-        
+          
+          <GenCard />
 
         </div>
       
