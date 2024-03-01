@@ -34,7 +34,7 @@ function App() {
       <footer>
         <div className='OrganizeCards'>
           <GenerateCards />
-          
+        
 
         </div>
       
