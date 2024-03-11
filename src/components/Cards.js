@@ -12,7 +12,6 @@ export const CardStyle = styled.div`
         border-radius: 10%;
         background: black;
         
-
 `;
     
 function Cards() {

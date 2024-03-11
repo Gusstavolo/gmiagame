@@ -4,10 +4,10 @@ import { GenerateCards } from './components/GenerateCards';
 import { GenCard } from './components/TestC';
 import { Experience } from './components/Experience';
 import React, { Suspense } from 'react';
-
+import { CardMoveD } from './components/dropCardMove';
 import { Canvas, useThree } from '@react-three/fiber';
 import { Physics, RigidBody, CylinderCollider } from "@react-three/rapier";
-
+import { DirectionMove } from './components/ControlMove';
 
 
 
@@ -30,7 +30,9 @@ function App() {
               </Canvas>
           </div>
     
-      
+
+        <CardMoveD />
+        <DirectionMove />
       <footer>
         <div className='OrganizeCards'>
           

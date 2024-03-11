@@ -54,3 +54,13 @@ footer {
   
   background-size: 100%;
 }
+
+.localcardM {
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  border: 5px solid;
+  top: 100px;
+  border-color: rgb(177, 18, 18);
+  
+}
